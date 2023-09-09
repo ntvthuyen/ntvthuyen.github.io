@@ -8,10 +8,10 @@ export const site: SiteConfig = {
   lang: 'en-US',
   description: 'Powered by SvelteKit/Urara',
   author: {
-    avatar: '/assets/maskable@512.png',
+    avatar: '/assets/penguin.jpg',
     name: 'Vinh-Thuyen',
     status: '🐧',
-    bio: 'A penguin \n email: ntvthuyen@gmail(dot)com'
+    bio: 'A penguin \n email: ntvthuyen@{gmail(dot)com, apcs.fitus(dot)edu.vn}'
   },
   themeColor: '#008080'
 }
