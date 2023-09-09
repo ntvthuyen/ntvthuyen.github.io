@@ -12,9 +12,9 @@ tags:
 ---
 
 ## Introduction
-This is a part of my thesis, I built this demo to test data streaming from smartwatch to personal computer. Users can tap on the buttons show on the smartwatch screen to select the application and open it.
+This is a part of my thesis, I built this demo to test data streaming from smartwatch to personal computer. Users can tap on the buttons show on the smartwatch screen to select and run an application.
 
-I also built a custom windows credential provider that allows user to login with token store in the smartwatch.
+I also built a custom windows credential provider that allows users to login with token stored in the smartwatch.
 
 ## Video
 
