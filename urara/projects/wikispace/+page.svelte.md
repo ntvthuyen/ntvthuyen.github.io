@@ -25,6 +25,7 @@ Allow users in VR access Wikipedia contents with 3D models if available.
 
 <script>
   import { YouTube } from 'sveltekit-embed'
+  import GitHub from '$lib/components/extra/github.svelte'
 </script>
 
 <YouTube youTubeId="qQzPpEX_u2M" />
@@ -62,7 +63,7 @@ Allow users in VR access Wikipedia contents with 3D models if available.
 ![alt text](/assets/wikipedia_(9).png "Wikispace screenshot")
 ## Repository
 
-[Wikispace repository](https://github.com/ntvthuyen/wikispace)
+<GitHub user="ntvthuyen" repo="wikispace"/>
 
 ## Resources:
 - Wikipedia API English https://www.mediawiki.org/wiki/API:Main_page
