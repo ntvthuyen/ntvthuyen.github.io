@@ -48,5 +48,5 @@ In this project, player is able to:
 
 # Repository
 
-<GitHub user="ntvthuyen" repo="leap-motion-seminar-demo"/>
+<GitHub user="ntvthuyen" repo="CS427-leap-motion-seminar-demo"/>
 
