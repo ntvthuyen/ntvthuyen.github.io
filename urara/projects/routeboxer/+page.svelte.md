@@ -26,6 +26,7 @@ Reference: A. Pinandito, M. C. Saputra and R. S. Perdana, "RouteBoxer library fo
 
 <script>
   import { YouTube } from 'sveltekit-embed'
+  import GitHub from '$lib/components/extra/github.svelte'
 </script>
 
 <YouTube youTubeId="JrVwR5KaHTs" />
@@ -46,4 +47,4 @@ Reference: A. Pinandito, M. C. Saputra and R. S. Perdana, "RouteBoxer library fo
 
 # Repository
 
-[Project repository](https://github.com/ntvthuyen/Route-boxer)
+<GitHub user="ntvthuyen" repo="Route-boxer"/>
