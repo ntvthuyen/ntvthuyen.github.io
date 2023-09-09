@@ -28,7 +28,7 @@ export default defineConfig({
   },
   plugins: [
     UnoCSS({
-      content: {
+     content: {
         pipeline: {
           include: [/\.svelte$/, /\.md?$/, /\.ts$/],
         }
