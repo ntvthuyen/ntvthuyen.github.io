@@ -1,6 +1,16 @@
 import type { ThemeConfig, HeadConfig, HeaderConfig, FooterConfig, DateConfig, FeedConfig } from '$lib/types/general'
 
 export const theme: ThemeConfig = [
+
+  {
+    name: 'synthwave',
+    text: '🌃 Synthwave'
+  },
+  {
+    name: 'aqua',
+    text: '💦 Aqua'
+  },
+
   {
     name: 'cmyk',
     text: '🖨 Light'
@@ -12,14 +22,6 @@ export const theme: ThemeConfig = [
   {
     name: 'valentine',
     text: '🌸 Valentine'
-  },
-  {
-    name: 'aqua',
-    text: '💦 Aqua'
-  },
-  {
-    name: 'synthwave',
-    text: '🌃 Synthwave'
   },
   {
     name: 'night',
@@ -55,14 +57,22 @@ export const head: HeadConfig = {}
 
 export const header: HeaderConfig = {
   nav: [
+    //{
+    //  text: 'Get Started',
+    //  link: '/hello-world'
+    //},
     {
-      text: 'Get Started',
-      link: '/hello-world'
+      text: 'Hello world',
+      link: '/welcome'
     },
     {
-      text: 'Elements',
-      link: '/hello-world/elements'
-    }
+      text: 'Resume',
+      link: '/resume'
+    },
+    //{
+    //  text: 'Elements',
+    //  link: '/hello-world/elements'
+    //}
   ]
 }
 
