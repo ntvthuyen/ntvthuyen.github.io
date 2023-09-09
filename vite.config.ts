@@ -28,7 +28,11 @@ export default defineConfig({
   },
   plugins: [
     UnoCSS({
-      include: [/\.svelte$/, /\.md?$/, /\.ts$/],
+      conent: {
+        pipeline: {
+          include: [/\.svelte$/, /\.md?$/, /\.ts$/],
+        }
+      },
       extractors: [extractorSvelte],
       presets: [
         presetTagify({
