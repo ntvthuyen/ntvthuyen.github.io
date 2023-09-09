@@ -30,6 +30,7 @@ In this project, player is able to:
 ## Video
 
 <script>
+  import GitHub from '$lib/components/extra/github.svelte'
   import { YouTube } from 'sveltekit-embed'
 </script>
 
@@ -47,5 +48,5 @@ In this project, player is able to:
 
 # Repository
 
-[Project repository](https://github.com/ntvthuyen/leap-motion-seminar-demo)
+<GitHub user="ntvthuyen" repo="leap-motion-seminar-demo"/>
 
