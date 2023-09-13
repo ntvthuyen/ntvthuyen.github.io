@@ -14,7 +14,7 @@ tags:
 
 
 ## Introduction
-Mobile interface for anime character generative model.
+Model deployment and mobile interface for anime character generative model.
 ## Video
 
 <script>
