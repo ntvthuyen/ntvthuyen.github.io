@@ -19,7 +19,7 @@ export const projects: Project[] = [
         img: 'https://ntvthuyen.com/assets/moto360.jpg',
         link: 'https://ntvthuyen.com/projects/smartwatchauthentication/'
     },
-    {
+    { 
         id: 'smartwatchremotecontrol',
         name: 'Smartwatch Remote Control',
         tags: ['Project', 'Wearable'],
@@ -27,7 +27,7 @@ export const projects: Project[] = [
             "This is a part of my thesis, I built this demo to test data streaming from smartwatch to personal computer. Users can tap on the buttons show on the smartwatch screen to select and run an application. I also built a custom windows credential provider that allows users to login with token stored in the smartwatch.",
         feature: 'Wearable',
         img: 'https://ntvthuyen.com/assets/smartwatchremotecontrol.png',
-        link: 'https://ntvthuyen.com/projects/smartwatchasremotecontrol/'
+        link: 'https://ntvthuyen.com/projects/smartwatchremotecontrol/'
     },
     {
         id: 'wikispace',
