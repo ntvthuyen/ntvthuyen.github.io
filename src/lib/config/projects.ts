@@ -56,7 +56,7 @@ export const projects: Project[] = [
             "This is a reimplementation of RouteBoxer algorithm using various line clipping algorithm to identify boxes that are crossed by the polylines of finding path. ",
         feature: 'Algorithm',
         img: 'https://ntvthuyen.com/assets/routeboxer/screenshot(4).jpg',
-        link: 'https://ntvthuyen.com/projects/routeboxer//'
+        link: 'https://ntvthuyen.com/projects/routeboxer/'
     }, {
         id: 'waifugenerator',
         name: 'Waifu Generator',
