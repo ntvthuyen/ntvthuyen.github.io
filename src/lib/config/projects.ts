@@ -41,7 +41,7 @@ export const projects: Project[] = [
     },
     {
         id: 'leapmotionseminar',
-        name: 'Smartwatch Remote Control',
+        name: 'Leap Motion Seminar',
         tags: ['Project', 'Coursework', 'Leap Motion', 'Unity'],
         description:
             "The goal is to introduce my friends about leap motion device. So we built this project using Unity 3D and leap motion V4.",
