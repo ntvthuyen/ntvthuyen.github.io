@@ -17,7 +17,7 @@ You can pronounce my name by saying "thu" and "yen" as fast as possible. Thuyen 
 
 I'm a bachelor of computer science. 
 
-I'm currently a Research assistant at MEILab - City University of Hong Kong (CityU) and trying my best to get my PhD admission in year. 
+I am currently a Research Engineer for the SIA-NUS Corporate Laboratory at IORA and trying my best to get my PhD admission in year. I used to be a Research assistant at MEILab - City University of Hong Kong (CityU). 
 
 My main research interest is Human-computer Interaction, Information and Knowledge Management. I have various knowledge in artificial intelligence, software engineering, and other computer-related-stuff.
 
