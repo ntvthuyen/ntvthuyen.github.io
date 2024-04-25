@@ -32,7 +32,10 @@ Hackathon for students 2019”, HCMC AngelHack’s Winner 2019, Runner‑up UNES
 - [Credential Url](https://www.coursera.org/account/accomplishments/specialization/certificate/9LQ6KUPNDSCM)
 
 ## Work Experience
-### Research Assistant, Remote/Kowloon Tong, Hong Kong, Nov 2022 - Present
+### Research Engineer, Singapore, 2023 - Present
+SIA-NUS Digital Aviation Corporate Laboratory ‑ National University of Singapore
+  - Work package 2
+### Research Assistant, Remote/Kowloon Tong, Hong Kong, Nov 2022 - 2023
 Multimodal Embodied Interaction Lab (MEILab) ‑ City University of Hong Kong 
 - Develop an annotation tool for signal data. 
 ### Freelance Teaching Assistant, Ho Chi Minh City, Vietnam, Oct 2022 ‑ Nov 2022
