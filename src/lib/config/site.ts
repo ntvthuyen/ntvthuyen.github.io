@@ -11,7 +11,7 @@ export const site: SiteConfig = {
     avatar: '/assets/penguin.jpg',
     name: 'Vinh-Thuyen',
     status: '🐧',
-    bio: 'A penguin \n email: ntvthuyen@{gmail(dot)com, apcs.fitus(dot)edu.vn}'
+    bio: 'A penguin \n email: thuyen@nus.edu.sg, ntvthuyen@{gmail(dot)com, apcs.fitus(dot)edu.vn}'
   },
   themeColor: '#008080'
 }
