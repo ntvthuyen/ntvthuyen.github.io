@@ -1,39 +1,39 @@
 {
-  "name": "Vinh-Thuyen",
-  "short_name": "Vinh-Thuyen",
-  "lang": "en-US",
+  "background_color": "#3D4451",
   "description": "Powered by SvelteKit/Urara",
-  "id": "https://ntvthuyen.github.io/",
-  "start_url": "/",
-  "scope": "/",
   "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#008080",
-  "theme_color": "#008080",
   "icons": [
     {
+      "sizes": "192x192",
       "src": "https://ntvthuyen.github.io/assets/any@192.png",
-      "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://ntvthuyen.github.io/assets/any@512.png",
       "sizes": "512x512",
+      "src": "https://ntvthuyen.github.io/assets/any@512.png",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://ntvthuyen.github.io/assets/maskable@192.png",
       "sizes": "192x192",
+      "src": "https://ntvthuyen.github.io/assets/maskable@192.png",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "https://ntvthuyen.github.io/assets/maskable@512.png",
       "sizes": "512x512",
+      "src": "https://ntvthuyen.github.io/assets/maskable@512.png",
       "type": "image/png",
       "purpose": "maskable"
     }
-  ]
+  ],
+  "id": "https://ntvthuyen.github.io/",
+  "lang": "en-US",
+  "name": "Urara",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "Urara",
+  "start_url": "/",
+  "theme_color": "#3D4451"
 }

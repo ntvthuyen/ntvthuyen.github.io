@@ -1,3 +1,0 @@
-import{m as f,p as x}from"./scheduler.55c863de.js";import{w as e}from"./index.1bfe2637.js";function _(s){const t=s-1;return t*t*t+1}function S(s,{delay:t=0,duration:o=400,easing:n=x}={}){const a=+getComputedStyle(s).opacity;return{delay:t,duration:o,easing:n,css:c=>`opacity: ${c*a}`}}function U(s,{delay:t=0,duration:o=400,easing:n=_,x:a=0,y:c=0,opacity:u=0}={}){const r=getComputedStyle(s),i=+r.opacity,y=r.transform==="none"?"":r.transform,m=i*(1-u),[l,$]=f(a),[d,g]=f(c);return{delay:t,duration:o,easing:n,css:(p,b)=>`
-			transform: ${y} translate(${(1-p)*l}${$}, ${(1-p)*d}${g});
-			opacity: ${i-m*b}`}}const V={},O=e([]),h=e([]),j=e({});export{O as a,h as b,S as c,U as f,V as p,j as t};
