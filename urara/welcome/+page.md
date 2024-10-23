@@ -25,5 +25,5 @@ I love computers, linux, coding, learning, games, DoTA, dota 2, counter-strike, 
 
 ## About this blog
 
-This blog is gonna be a place to share my PhD journey when I officially get my admisison. I want to improve my writing as well (English, Vietnamese, and Chinese(future :>))
+This blog is gonna be a place to share my PhD journey when I officially get my admisison. 
 
