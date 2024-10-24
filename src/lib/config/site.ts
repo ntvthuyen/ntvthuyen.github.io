@@ -13,5 +13,5 @@ export const site: SiteConfig = {
   protocol: import.meta.env.URARA_SITE_PROTOCOL ?? import.meta.env.DEV ? 'http://' : 'https://',
   subtitle: 'A penguin loves coding, music, and science',
   themeColor: '#3D4451',
-  title: 'Urara',
+  title: 'Vinh-Thuyen',
 }
