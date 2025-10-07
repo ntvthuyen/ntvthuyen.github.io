@@ -57,6 +57,9 @@ to understand concepts, to code, or anything related to Web and Mobile developme
 - Khung long giay is a non‑profit project, I contribute to this project as a mobile developer working with various frameworks, tools and services:
 Flutter, React Native, Firebase, git, etc.
 ## Publications
+
+2025 VR Competency-Based Pilot Training for Threat and Error Management, In SIGGRAPH Asia 2025 XR (SA XR ’25), December 15–18, 2025, Hong Kong, Hong Kong. https://doi.org/10.1145/3761667.3761949
+
 2021 SHREC 2021: Retrieval and classification of protein surfaces equipped with physical and chemical
 properties, Computers & Graphics, Volume 99, 2021, Pages 1‑21, ISSN 0097‑8493 
 
