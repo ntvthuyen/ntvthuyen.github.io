@@ -10,6 +10,16 @@ export type Project = {
 
 export const projects: Project[] = [
     {
+        id: 'vrtrainingdemo',
+        name: 'VR Competency-Based Pilot Training for Threat and Error Management',
+        description: 
+            "VR Training Simulator focues on TEM training.",
+        tags: ['Research''Aviation', 'Training', 'SIGGRAPH ASIA'],
+        img: 'https://ntvthuyen.com/assets/vrdemo.jpg',
+        link: 'https://ntvthuyen.com/projects/vrtrainingsimulator/'
+
+    },
+    {
         id: 'smartwatchauthentication',
         name: 'Towards a Gratifying Interactive Modality for Smart Environments based on Ubiquitous Sensing (BSc. Thesis)',
         tags: ['Project', 'Wearable', 'Signal Processing', 'Thesis'],
