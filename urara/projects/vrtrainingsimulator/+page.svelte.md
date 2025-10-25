@@ -13,8 +13,6 @@ tags:
   - 'Training'
 ---
 
-![Teaser](/assets/vrdemo.jpg)
-
 [Ahmad Iqbal Bin Othman](https://siacorplab.nus.edu.sg/people/ahmad-iqbal-bin-othman/) crafted this beautiful teaser!
 
 Full Flight Simulators are costly and limited in availability. 
