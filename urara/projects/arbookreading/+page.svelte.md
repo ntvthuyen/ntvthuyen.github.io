@@ -2,9 +2,9 @@
 title: 'An Early Prototype for AR Content Display Triggered by Book Touch Interaction'
 image: /assets/readbook.png
 summary: 'Using a smartwatch as a remote control'
-created: 2021-03-21
-updated: 2021-03-21
-published: 2021-03-21 
+created: 2022-12-21
+updated: 2022-12-21
+published: 2022-12-21 
 
 tags:
   - 'Project'
@@ -18,9 +18,8 @@ It was created after reviewing research on paper-based user interfaces during my
 
 ![alt text](/assets/arreading_teaser.jpg)
 
-## Video
+# Video
 
-### App selection demo
 <script>
   import { YouTube } from 'sveltekit-embed'
 </script>
