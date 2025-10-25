@@ -14,7 +14,7 @@ export const projects: Project[] = [
         name: 'VR Competency-Based Pilot Training for Threat and Error Management',
         description: 
             "VR Training Simulator focues on TEM training.",
-        tags: ['Research''Aviation', 'Training', 'SIGGRAPH ASIA'],
+        tags: ['Research','Aviation', 'Training', 'SIGGRAPH ASIA'],
         img: 'https://ntvthuyen.com/assets/vrdemo.jpg',
         link: 'https://ntvthuyen.com/projects/vrtrainingsimulator/'
 
