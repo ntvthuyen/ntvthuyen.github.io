@@ -30,6 +30,15 @@ export const projects: Project[] = [
         link: 'https://ntvthuyen.com/projects/lazylens'
     },
     {
+        id: 'arbookreading',
+        name: 'An early prototype that transforms physical book touches into interactive AR knowledge windows.',
+        description: 
+            "A Hololens 2 prototype enabling touch-based interaction with physical books, triggering AR panels for translation and knowledge retrieval",
+        tags: ['Project', 'Hololens 2', 'AR'],
+        img: 'https://ntvthuyen.com/assets/readbook.jpg',
+        link: 'https://ntvthuyen.com/projects/arbookreading/'
+    },
+    {
         id: 'smartwatchauthentication',
         name: 'Towards a Gratifying Interactive Modality for Smart Environments based on Ubiquitous Sensing (BSc. Thesis)',
         tags: ['Project', 'Wearable', 'Signal Processing', 'Thesis'],
