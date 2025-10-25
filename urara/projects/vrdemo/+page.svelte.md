@@ -1,6 +1,6 @@
 ---
 title: 'VR Competency-Based Pilot Training for Threat and Error Management'
-image: /assets/routeboxer/vrdemo.jpg 
+image: /assets/vrdemo.jpg 
 summary: 'VR Competency-Based Pilot Training for Threat and Error Management'
 created: 2025-10-20
 updated: 2025-10-20
@@ -13,7 +13,7 @@ tags:
   - 'Training'
 ---
 
-![Teaser](/assets/routeboxer/vrdemo.jpg")
+![Teaser](/assets/vrdemo.jpg")
 
 [Ahmad Iqbal Bin Othman](https://siacorplab.nus.edu.sg/people/ahmad-iqbal-bin-othman/) crafted this beautiful teaser!
 
