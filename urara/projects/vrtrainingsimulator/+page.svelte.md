@@ -21,3 +21,5 @@ recreating complex approach scenarios with injected threats and errors for scala
 Shout out for my teammates who have been working on this for years.
 I joined later to support the evaluation phase and further contribute to refining and expanding the system’s design, and planed the paper writing.
 
+# Publication
+2025 VR Competency-Based Pilot Training for Threat and Error Management, In SIGGRAPH Asia 2025 XR (SA XR ’25), December 15–18, 2025, Hong Kong, Hong Kong. https://doi.org/10.1145/3761667.3761949
