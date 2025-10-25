@@ -31,7 +31,7 @@ export const projects: Project[] = [
     },
     {
         id: 'arbookreading',
-        name: 'An early prototype that transforms physical book touches into interactive AR knowledge windows.',
+        name: 'An Early Prototype for AR Content Display Triggered by Book Touch Interaction.',
         description: 
             "A Hololens 2 prototype enabling touch-based interaction with physical books, triggering AR panels for translation and knowledge retrieval",
         tags: ['Project', 'Hololens 2', 'AR'],
