@@ -1,0 +1,39 @@
+{
+  "background_color": "#3D4451",
+  "description": "Powered by SvelteKit/Urara",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "192x192",
+      "src": "https://ntvthuyen.github.io/assets/any@192.png",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "sizes": "512x512",
+      "src": "https://ntvthuyen.github.io/assets/any@512.png",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "sizes": "192x192",
+      "src": "https://ntvthuyen.github.io/assets/maskable@192.png",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "sizes": "512x512",
+      "src": "https://ntvthuyen.github.io/assets/maskable@512.png",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "https://ntvthuyen.github.io/",
+  "lang": "en-US",
+  "name": "Vinh-Thuyen",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "Vinh-Thuyen",
+  "start_url": "/",
+  "theme_color": "#3D4451"
+}

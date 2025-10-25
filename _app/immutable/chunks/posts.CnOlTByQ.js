@@ -1,0 +1,3 @@
+import{w as e}from"./index.CAThSOkd.js";import{l as f,m as x}from"./scheduler.bcJVWkt9.js";const S={},U=e({});function _(s){const t=s-1;return t*t*t+1}function V(s,{delay:t=0,duration:o=400,easing:n=x}={}){const a=+getComputedStyle(s).opacity;return{delay:t,duration:o,easing:n,css:c=>`opacity: ${c*a}`}}function O(s,{delay:t=0,duration:o=400,easing:n=_,x:a=0,y:c=0,opacity:u=0}={}){const r=getComputedStyle(s),i=+r.opacity,y=r.transform==="none"?"":r.transform,l=i*(1-u),[m,$]=f(a),[d,g]=f(c);return{delay:t,duration:o,easing:n,css:(p,b)=>`
+			transform: ${y} translate(${(1-p)*m}${$}, ${(1-p)*d}${g});
+			opacity: ${i-l*b}`}}const h=e([]),j=e([]);export{j as a,V as b,S as c,O as f,h as p,U as t};
