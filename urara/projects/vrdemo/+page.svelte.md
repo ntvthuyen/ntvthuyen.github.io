@@ -13,7 +13,7 @@ tags:
   - 'Training'
 ---
 
-![Teaser](/assets/vrdemo.jpg")
+![Teaser](/assets/vrdemo.jpg)
 
 [Ahmad Iqbal Bin Othman](https://siacorplab.nus.edu.sg/people/ahmad-iqbal-bin-othman/) crafted this beautiful teaser!
 
