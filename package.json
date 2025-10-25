@@ -9,8 +9,7 @@
   "author": "藍+85CD",
   "packageManager": "pnpm@9.10.0",
   "scripts": {
-    "prepare": "svelte-kit sync",
-    "build": "svelte-kit sync && svelte-kit build run-s tsc urara:build kit:build clean",
+    "build": "run-s tsc urara:build kit:build clean",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
     "clean": "node urara.js clean",
