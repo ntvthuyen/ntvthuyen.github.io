@@ -35,7 +35,7 @@ export const projects: Project[] = [
         description: 
             "A Hololens 2 prototype enabling touch-based interaction with physical books, triggering AR panels for translation and knowledge retrieval",
         tags: ['Project', 'Hololens 2', 'AR'],
-        img: 'https://ntvthuyen.com/assets/readbook.jpg',
+        img: 'https://ntvthuyen.com/assets/readbook.png',
         link: 'https://ntvthuyen.com/projects/arbookreading/'
     },
     {
