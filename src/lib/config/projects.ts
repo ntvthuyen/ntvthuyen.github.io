@@ -9,6 +9,7 @@ export type Project = {
 }
 
 export const projects: Project[] = [
+
     {
         id: 'vrtrainingdemo',
         name: 'VR Competency-Based Pilot Training for Threat and Error Management',
@@ -18,6 +19,15 @@ export const projects: Project[] = [
         img: 'https://ntvthuyen.com/assets/vrdemo.jpg',
         link: 'https://ntvthuyen.com/projects/vrtrainingsimulator/'
 
+    },
+    {
+        id: 'mscthesis',
+        name: 'A Low-Cost Prism-Mirror Lens for Lower-Position Hand Tracking and Walk-in-Place Locomotion in Mobile VR (MSc. Thesis)',
+        description: 
+            'A low-cost prism mirror attachment that redirects a smartphone camera downward enabling hand tracking and WIP locomotion.',
+        tags: ['Project', 'VR', 'Locomotion', 'Thesis'],
+        img: 'https://ntvthuyen.com/assets/teaser.jpg',
+        link: 'https://ntvthuyen.com/projects/lazylens'
     },
     {
         id: 'smartwatchauthentication',
