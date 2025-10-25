@@ -1,6 +1,6 @@
 ---
 title: 'VR Competency-Based Pilot Training for Threat and Error Management'
-image: /assets/waifugenerator/clickyui(1).png 
+image: /assets/routeboxer/vrdemo.jpg 
 summary: 'VR Competency-Based Pilot Training for Threat and Error Management'
 created: 2025-10-20
 updated: 2025-10-20
@@ -14,6 +14,7 @@ tags:
 ---
 
 ![Teaser](/assets/routeboxer/vrdemo.jpg")
+
 [Ahmad Iqbal Bin Othman](https://siacorplab.nus.edu.sg/people/ahmad-iqbal-bin-othman/) crafted this beautiful teaser!
 
 Full Flight Simulators are costly and limited in availability. 
