@@ -1,7 +1,7 @@
 ---
 title: 'An Early Prototype for AR Content Display Triggered by Book Touch Interaction'
 image: /assets/readbook.png
-summary: 'Using a smartwatch as a remote control'
+summary: 'A Hololens 2 prototype enabling touch-based interaction with physical books, triggering AR panels for translation and knowledge retrieval'
 created: 2022-12-21
 updated: 2022-12-21
 published: 2022-12-21 
