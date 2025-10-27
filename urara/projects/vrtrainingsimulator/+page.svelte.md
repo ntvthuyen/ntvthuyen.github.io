@@ -1,5 +1,5 @@
 ---
-title: 'VR Competency-Based Pilot Training for Threat and Error Management'
+title: '(SIGGRAPH Asia 2025 XR) VR Competency-Based Pilot Training for Threat and Error Management'
 image: /assets/vrdemo.jpg 
 summary: 'VR Competency-Based Pilot Training for Threat and Error Management'
 created: 2025-10-20
