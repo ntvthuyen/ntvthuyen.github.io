@@ -10,7 +10,7 @@ tags:
 
 ## Education
 ### John Von Neumann Institute ‑ Vietnam National University Ho Chi Minh City, VN
-MSc in Computer Science 2022 ‑ 2023
+MSc in Computer Science, GPA 4/4 Dec 2021 ‑ Dec 2024
 - Studying in English
 - VinIF Award Scholarship for master student in Vietnam
 - Review coursework: Machine Learning, Deep Learning, Computer Vision, AI, Information Retrieval, Scientific Methods and Technical Writing
