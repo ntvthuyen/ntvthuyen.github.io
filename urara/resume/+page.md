@@ -58,9 +58,11 @@ to understand concepts, to code, or anything related to Web and Mobile developme
 Flutter, React Native, Firebase, git, etc.
 ## Publications
 
+2026 Efficacy of High-Fidelity VR Threat-and-Error Simulation for Competency-based Pilot Training, In IEEE VR 2026 and IEEE Transactions on Visualization and Computer Graphics
+
 2025 VR Competency-Based Pilot Training for Threat and Error Management, In SIGGRAPH Asia 2025 XR (SA XR ’25), December 15–18, 2025, Hong Kong, Hong Kong. https://doi.org/10.1145/3761667.3761949
 
-Deep Learning-Based Classification of Colorectal Cancer in Histopathology Images for Category Detection, Biology Methods and Protocols, 2025;, bpaf077, https://doi.org/10.1093/biomethods/bpaf077
+2025 Deep Learning-Based Classification of Colorectal Cancer in Histopathology Images for Category Detection, Biology Methods and Protocols, 2025;, bpaf077, https://doi.org/10.1093/biomethods/bpaf077
 
 2021 SHREC 2021: Retrieval and classification of protein surfaces equipped with physical and chemical
 properties, Computers & Graphics, Volume 99, 2021, Pages 1‑21, ISSN 0097‑8493 
