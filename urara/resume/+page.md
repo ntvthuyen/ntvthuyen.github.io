@@ -8,5 +8,4 @@ tags:
   - 'About'
 ---
 
-## CV
 My CV can be found [here](https://drive.google.com/file/d/1IsYBn-oH_NGcHubr2UL1nCdNH8uljZcy/view?usp=sharing)
