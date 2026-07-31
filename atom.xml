@@ -6,7 +6,7 @@
   <icon>https://ntvthuyen.github.io/favicon.png</icon>
   <link href="https://ntvthuyen.github.io" />
   <link href="https://ntvthuyen.github.io/atom.xml" rel="self" type="application/atom+xml" />
-  <updated>2026-07-16T08:17:59.765Z</updated>
+  <updated>2026-07-31T02:31:57.240Z</updated>
   <author>
     <name><![CDATA[Vinh-Thuyen]]></name>
   </author>
@@ -35,7 +35,7 @@
     <title type="html"><![CDATA[Resume]]></title>
     <link href="https://ntvthuyen.github.io/resume" />
     <id>https://ntvthuyen.github.io/resume</id>
-    <published>2026-07-16T08:17:33.738Z</published>
+    <published>2026-07-31T02:31:32.017Z</published>
     <updated>2026-06-19T00:00:00.000Z</updated>
     <content type="html">
       <![CDATA[<p data-svelte-h="svelte-1vyh2wr">My CV can be found <a href="https://drive.google.com/file/d/1IsYBn-oH_NGcHubr2UL1nCdNH8uljZcy/view?usp=sharing" rel="nofollow noopener noreferrer external" target="_blank">here</a></p>]]>
@@ -48,10 +48,10 @@
     <title type="html"><![CDATA[Hello World]]></title>
     <link href="https://ntvthuyen.github.io/welcome" />
     <id>https://ntvthuyen.github.io/welcome</id>
-    <published>2026-07-16T08:17:33.738Z</published>
+    <published>2026-07-31T02:31:32.017Z</published>
     <updated>2022-06-19T00:00:00.000Z</updated>
     <content type="html">
-      <![CDATA[<h1 id="about-me" data-svelte-h="svelte-1nwhtfo"><a href="#about-me">About me!</a></h1> <p data-svelte-h="svelte-155t6m">My name is Vinh-Thuyen.</p> <p data-svelte-h="svelte-mykv7i">I’m a PhD student at Division of Industrial Design, College of Design and Engineering, National University of Singapore. I’m a part of [i3d][https://www.i3d.design/] and <a href="https://palettelab-nus.github.io/PaletteLab/" rel="nofollow noopener noreferrer external" target="_blank">palette lab</a>. I hold a BSc (APCS program) and a Msc degree in Computer Science.</p> <p data-svelte-h="svelte-17t7cys">You can pronounce my name by saying “thu” and “yen” as fast as possible. My mom wanted to name me after a person named Han Thuyen (韓詮), so 詮 is the primary meaning :)</p> <p data-svelte-h="svelte-1jow1n2">Previously, I was a Research Engineer at the SIA–NUS Corporate Laboratory at IORA, a Research Assistant at MEILab, City University of Hong Kong (CityU).</p> <p data-svelte-h="svelte-jxkre5">My main research interests are Human–Computer Interaction and Information &amp; Knowledge Management. I have broad experience and knowledge in artificial intelligence, software engineering, and other computer-related fields.</p> <p data-svelte-h="svelte-13p1cwp">I love computers, Linux, coding, learning, games, Dota, Dota 2, Counter-Strike, manga, playing the guitar, math rock, running, swimming, and penguins.</p> <h2 id="about-this-blog" data-svelte-h="svelte-1592ket"><a href="#about-this-blog">About this blog</a></h2> <p data-svelte-h="svelte-19oy1ny">This blog is gonna be a place to share my PhD journey when I officially get my admisison.</p>]]>
+      <![CDATA[<h1 id="about-me" data-svelte-h="svelte-1nwhtfo"><a href="#about-me">About me!</a></h1> <p data-svelte-h="svelte-155t6m">My name is Vinh-Thuyen.</p> <p data-svelte-h="svelte-btdtyj">I’m a PhD student at Department of Design, College of Design and Engineering, National University of Singapore. I’m a part of <a href="https://www.i3d.design/" rel="nofollow noopener noreferrer external" target="_blank">i3d</a> and <a href="https://palettelab-nus.github.io/PaletteLab/" rel="nofollow noopener noreferrer external" target="_blank">palette lab</a>. I hold a BSc (APCS program) and a Msc degree in Computer Science.</p> <p data-svelte-h="svelte-17t7cys">You can pronounce my name by saying “thu” and “yen” as fast as possible. My mom wanted to name me after a person named Han Thuyen (韓詮), so 詮 is the primary meaning :)</p> <p data-svelte-h="svelte-1jow1n2">Previously, I was a Research Engineer at the SIA–NUS Corporate Laboratory at IORA, a Research Assistant at MEILab, City University of Hong Kong (CityU).</p> <p data-svelte-h="svelte-1uxorjq">My research interests are Human–Computer Interaction, Information &amp; Knowledge Management, Spatial Computing, Creativity Support Tools, and Community Support. I have broad experience and knowledge in artificial intelligence, software engineering, and other computer-related fields.</p> <p data-svelte-h="svelte-13p1cwp">I love computers, Linux, coding, learning, games, Dota, Dota 2, Counter-Strike, manga, playing the guitar, math rock, running, swimming, and penguins.</p> <h2 id="about-this-blog" data-svelte-h="svelte-1592ket"><a href="#about-this-blog">About this blog</a></h2> <p data-svelte-h="svelte-19oy1ny">This blog is gonna be a place to share my PhD journey when I officially get my admisison.</p>]]>
     </content>
     <category term="Hello World" scheme="https://ntvthuyen.github.io/?tags=Hello%20World" />
     <category term="Welcome" scheme="https://ntvthuyen.github.io/?tags=Welcome" />
