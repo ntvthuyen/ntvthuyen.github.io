@@ -13,7 +13,7 @@ tags:
 
 My name is Vinh-Thuyen.
 
-I'm a PhD student at Department of Design, College of Design and Engineering, National University of Singapore. I'm a part of [i3d](https://www.i3d.design/) and [palette lab](https://palettelab-nus.github.io/PaletteLab/) <img src="assets/i3d-palette-logo.png" width="35" alt="icon">. I hold a BSc (APCS program) and a Msc degree in Computer Science. 
+I'm a PhD student at Department of Design, College of Design and Engineering, National University of Singapore. I'm a part of [i3d](https://www.i3d.design/) and [palette lab](https://palettelab-nus.github.io/PaletteLab/) <img src="/assets/i3d-palette-logo.png" width="35" alt="icon">. I hold a BSc (APCS program) and a Msc degree in Computer Science. 
 
 You can pronounce my name by saying “thu” and “yen” as fast as possible. My mom wanted to name me after a person named Han Thuyen (韓詮), so 詮 is the primary meaning :)
 
