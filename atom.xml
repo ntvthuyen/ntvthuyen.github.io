@@ -6,7 +6,7 @@
   <icon>https://ntvthuyen.github.io/favicon.png</icon>
   <link href="https://ntvthuyen.github.io" />
   <link href="https://ntvthuyen.github.io/atom.xml" rel="self" type="application/atom+xml" />
-  <updated>2026-08-19T18:35:57.456Z</updated>
+  <updated>2026-08-19T18:41:38.488Z</updated>
   <author>
     <name><![CDATA[Vinh-Thuyen]]></name>
   </author>
@@ -34,7 +34,7 @@
     <title type="html"><![CDATA[Resume]]></title>
     <link href="https://ntvthuyen.github.io/resume" />
     <id>https://ntvthuyen.github.io/resume</id>
-    <published>2026-08-19T18:35:29.674Z</published>
+    <published>2026-08-19T18:41:14.268Z</published>
     <updated>2026-06-19T00:00:00.000Z</updated>
     <content type="html">
       <![CDATA[<p data-svelte-h="svelte-1vyh2wr">My CV can be found <a href="https://drive.google.com/file/d/1IsYBn-oH_NGcHubr2UL1nCdNH8uljZcy/view?usp=sharing" rel="nofollow noopener noreferrer external" target="_blank">here</a></p>]]>
@@ -47,7 +47,7 @@
     <title type="html"><![CDATA[Hello World]]></title>
     <link href="https://ntvthuyen.github.io/welcome" />
     <id>https://ntvthuyen.github.io/welcome</id>
-    <published>2026-08-19T18:35:29.674Z</published>
+    <published>2026-08-19T18:41:14.268Z</published>
     <updated>2022-06-19T00:00:00.000Z</updated>
     <content type="html">
       <![CDATA[<h1 id="about-me" data-svelte-h="svelte-1nwhtfo"><a href="#about-me">About me!</a></h1> <p data-svelte-h="svelte-e938ru">My name is Vinh-Thuyen. You can pronounce my name by saying “thu” and “yen” as fast as possible. My mom wanted to name me after a person named Han Thuyen (韓詮), so 詮 is the primary meaning :)</p> <p data-svelte-h="svelte-169nyk5">I’m a PhD student at Department of Design, College of Design and Engineering, National University of Singapore. I’m a part of <img src="/assets/i3d-palette-logo.png" alt="icon"> <a href="https://www.i3d.design/" rel="nofollow noopener noreferrer external" target="_blank">i3d</a> and <a href="https://palettelab-nus.github.io/PaletteLab/" rel="nofollow noopener noreferrer external" target="_blank">palette lab</a>.</p> <p data-svelte-h="svelte-la51cw">I hold a BSc (APCS program) and a Msc degree in Computer Science.</p> <p data-svelte-h="svelte-1jow1n2">Previously, I was a Research Engineer at the SIA–NUS Corporate Laboratory at IORA, a Research Assistant at MEILab, City University of Hong Kong (CityU).</p> <p data-svelte-h="svelte-1uxorjq">My research interests are Human–Computer Interaction, Information &amp; Knowledge Management, Spatial Computing, Creativity Support Tools, and Community Support. I have broad experience and knowledge in artificial intelligence, software engineering, and other computer-related fields.</p> <p data-svelte-h="svelte-13p1cwp">I love computers, Linux, coding, learning, games, Dota, Dota 2, Counter-Strike, manga, playing the guitar, math rock, running, swimming, and penguins.</p> <h2 id="about-this-blog" data-svelte-h="svelte-1592ket"><a href="#about-this-blog">About this blog</a></h2> <p data-svelte-h="svelte-19oy1ny">This blog is gonna be a place to share my PhD journey when I officially get my admisison.</p>]]>
@@ -152,7 +152,7 @@
     <updated>2020-10-29T00:00:00.000Z</updated>
     <summary type="html"><![CDATA[This is a project to demostrate how to use leap motion as input in Unity3D]]></summary>
     <content type="html">
-      <![CDATA[<h2 id="introduction" data-svelte-h="svelte-ccveyw"><a href="#introduction">Introduction</a></h2> <p data-svelte-h="svelte-3366zn">This project was a part of 3D visualization and game development course in 2020, my third year at university.</p> <p data-svelte-h="svelte-pid6sf">We built this project using Unity 3D and leap motion V4 for introducing my friend to the hand tracking device.</p> <p data-svelte-h="svelte-jzznqo">In this project, player is able to:</p> <ul data-svelte-h="svelte-16gmdbs"><li><p>Grabbing weapons</p></li> <li><p>Hitting enemies with fireball</p></li> <li><p>And … Moving Unity-chan around… grab, pull or push her</p></li></ul> <h2 id="video" data-svelte-h="svelte-1bvq07b"><a href="#video">Video</a></h2>   <div data-testid="general-observer"></div> <br> <h2 id="screenshots" data-svelte-h="svelte-zmp8oh"><a href="#screenshots">Screenshots</a></h2> <p><img alt="alt text" class="rounded-lg my-2" decoding="async" loading="lazy" src="/assets/leapmotion/leapmotionseminar(1).png"> <img alt="alt text" class="rounded-lg my-2" decoding="async" loading="lazy" src="/assets/leapmotion/leapmotionseminar(2).png"> <img alt="alt text" class="rounded-lg my-2" decoding="async" loading="lazy" src="/assets/leapmotion/leapmotionseminar(3).png"> <img alt="alt text" class="rounded-lg my-2" decoding="async" loading="lazy" src="/assets/leapmotion/leapmotionseminar(4).png"> <img alt="alt text" class="rounded-lg my-2" decoding="async" loading="lazy" src="/assets/leapmotion/leapmotionseminar(5).png"></p> <h1 id="repository" data-svelte-h="svelte-1k7vinq"><a href="#repository">Repository</a></h1> <div class="card bg-base-100 !bg-base-200 my-4 "><div class="p-6"></div></div>]]>
+      <![CDATA[<h2 id="introduction" data-svelte-h="svelte-ccveyw"><a href="#introduction">Introduction</a></h2> <p data-svelte-h="svelte-3366zn">This project was a part of 3D visualization and game development course in 2020, my third year at university.</p> <p data-svelte-h="svelte-pid6sf">We built this project using Unity 3D and leap motion V4 for introducing my friend to the hand tracking device.</p> <p data-svelte-h="svelte-jzznqo">In this project, player is able to:</p> <ul data-svelte-h="svelte-9jv5go"><li><p>Grabbing weapons</p></li> <li><p>Fireball!</p></li> <li><p>And … Moving Unity-chan around… (cuz i got no money for paid models :) )</p></li></ul> <h2 id="video" data-svelte-h="svelte-1bvq07b"><a href="#video">Video</a></h2>   <div data-testid="general-observer"></div> <br> <h2 id="screenshots" data-svelte-h="svelte-zmp8oh"><a href="#screenshots">Screenshots</a></h2> <p><img alt="alt text" class="rounded-lg my-2" decoding="async" loading="lazy" src="/assets/leapmotion/leapmotionseminar(1).png"> <img alt="alt text" class="rounded-lg my-2" decoding="async" loading="lazy" src="/assets/leapmotion/leapmotionseminar(2).png"> <img alt="alt text" class="rounded-lg my-2" decoding="async" loading="lazy" src="/assets/leapmotion/leapmotionseminar(3).png"> <img alt="alt text" class="rounded-lg my-2" decoding="async" loading="lazy" src="/assets/leapmotion/leapmotionseminar(4).png"> <img alt="alt text" class="rounded-lg my-2" decoding="async" loading="lazy" src="/assets/leapmotion/leapmotionseminar(5).png"></p> <h1 id="repository" data-svelte-h="svelte-1k7vinq"><a href="#repository">Repository</a></h1> <div class="card bg-base-100 !bg-base-200 my-4 "><div class="p-6"></div></div>]]>
     </content>
     <category term="Coursework" scheme="https://ntvthuyen.github.io/?tags=Coursework" />
     <category term="Project" scheme="https://ntvthuyen.github.io/?tags=Project" />
