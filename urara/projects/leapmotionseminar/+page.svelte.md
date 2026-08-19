@@ -23,9 +23,9 @@ In this project, player is able to:
 
 - Grabbing weapons
 
-- Hitting enemies with fireball
+- Fireball!
 
-- And ... Moving Unity-chan around... grab, pull or push her
+- And ... Moving Unity-chan around... (cuz i got no money for paid models :) )
 
 ## Video
 
