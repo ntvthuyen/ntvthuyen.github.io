@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Vinh-Thuyen</title>
+    <link>https://ntvthuyen.com/</link>
+    <description>Vinh-Thuyen.</description>
+    <language>en</language>
+
+    <!--item>
+      <title>Hello, world</title>
+      <link>https://yourhandle.github.io/blog/post-1.html</link>
+      <guid>https://yourhandle.github.io/blog/post-1.html</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <description>The first post on the new site — why I built it this way.</description>
+    </item-->
+
+    <!-- Add a new <item> block above this line each time you publish a post,
+         newest first, matching the entry you add to the posts array in script.js -->
+
+  </channel>
+</rss>

@@ -1,0 +1,481 @@
+/* =========================================================
+   FONT — self-hosted, subset to basic Latin, ~6KB.
+   Orbitron (Bold instance), OFL licensed —
+   see fonts/Orbitron-LICENSE.txt
+   ========================================================= */
+@font-face {
+  font-family: "Orbitron";
+  src: url("fonts/Orbitron-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+font-family: "PressStart2P";
+src: url("fonts/PressStart2P-Regular.ttf");
+font-weight: 700;
+font-style: normal;
+font-display: swap;
+}
+
+
+
+/* =========================================================
+   TOKENS — Miku Vintage palette (the only palette now — no
+   more New/Colorblind picker). Light/dark mode is still
+   switchable, just via a manual toggle instead of only
+   following the OS preference.
+   ========================================================= */
+:root {
+  --teal:       #058198;
+  --teal-dark:  #046577;
+  --teal-deep:  #03404c;
+  --pink:       #dc2961;
+  --pink-dark:  #b0214e;
+
+  --black:      #1a1a1a;  /* ink / borders / text — flips light in dark mode */
+  --ink-soft:   #666666;  /* muted text — flips lighter in dark mode */
+  --bg:         #fdfcf8;  /* page background — flips dark in dark mode */
+  --surface:    #ffffff;  /* opaque UI surfaces (dropdown bg, etc) — flips dark */
+  --card-bg:    rgba(255, 255, 255, 0.86); /* the content card — semi-transparent
+                                               so the scattered background shows
+                                               through slightly; flips dark */
+  --card-shadow: rgba(26, 26, 26, 0.08);
+  --on-accent:  #ffffff;  /* text sitting on filled teal/pink buttons —
+                              stays light regardless of mode */
+
+  --font-display: "PressStart2P", ui-monospace, monospace;
+  --font-body:  "PressStart2P", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+                Helvetica, Arial, sans-serif;
+}
+
+/* Dark mode — three ways to end up here, so it degrades gracefully:
+   1) body[data-mode="dark"] — set by script.js once it knows the
+      user's stored choice or, on first visit, the OS preference
+   2) body:has(.mode-toggle:checked) — native CSS state of the
+      toggle itself, works with JS disabled too (just without memory
+      across pages)
+   3) @media (prefers-color-scheme: dark) — final fallback so a
+      first-time, no-JS visitor still gets a sensible default */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --black:      #f2efe9;
+    --ink-soft:   #a39d94;
+    --bg:         #15171c;
+    --surface:    #1f2127;
+    --card-bg:    rgba(24, 26, 31, 0.82);
+    --card-shadow: rgba(0, 0, 0, 0.35);
+  }
+}
+body[data-mode="dark"],
+body:has(.mode-toggle:checked) {
+  --black:      #f2efe9;
+  --ink-soft:   #a39d94;
+  --bg:         #15171c;
+  --surface:    #1f2127;
+  --card-bg:    rgba(24, 26, 31, 0.82);
+  --card-shadow: rgba(0, 0, 0, 0.35);
+}
+/* explicit "force light" override — needed for the case where the
+   OS is set to dark but the person has manually chosen light mode */
+body[data-mode="light"] {
+  --black:      #1a1a1a;
+  --ink-soft:   #666666;
+  --bg:         #fdfcf8;
+  --surface:    #ffffff;
+  --card-bg:    rgba(255, 255, 255, 0.86);
+  --card-shadow: rgba(26, 26, 26, 0.08);
+}
+
+* { box-sizing: border-box; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--black);
+  font-family: var(--font-body);
+  line-height: 1.65;
+  font-size: 13px;
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 640px) 1fr;
+}
+
+img { max-width: 100%; display: block; }
+a { color: var(--teal-deep); }
+a:hover { color: var(--pink-dark); }
+a:focus-visible { outline: 2px dashed var(--black); outline-offset: 2px; }
+
+.wrap {
+  grid-column: 2;
+  width: 100%;
+  max-width: 640px;
+  margin: 2.5rem auto 4rem;
+  padding: 2.5rem 1.75rem;
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 2px solid var(--black);
+  box-shadow: 0 6px 0 var(--card-shadow);
+}
+
+/* =========================================================
+   HOME LINK — the only cross-page navigation outside index.html
+   ========================================================= */
+.home-link {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  letter-spacing: 0.03em;
+  padding: 0.5rem 0.9rem;
+  border: 2px solid var(--black);
+  color: var(--black);
+  text-decoration: none;
+  margin-bottom: 2rem;
+}
+.home-link:hover {
+  background: var(--teal);
+  border-color: var(--teal);
+  color: var(--on-accent);
+}
+
+/* =========================================================
+   HOME HUB — nav buttons, only present on index.html
+   ========================================================= */
+.hub-nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.6rem;
+  margin: 2rem 0;
+}
+.hub-nav a {
+  display: block;
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  padding: 0.9rem 0.5rem;
+  border: 2px solid var(--black);
+  color: var(--black);
+  text-decoration: none;
+}
+.hub-nav a:hover {
+  background: var(--teal);
+  border-color: var(--teal);
+  color: var(--on-accent);
+}
+
+/* =========================================================
+   TYPOGRAPHY
+   ========================================================= */
+h1 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: var(--teal-deep);
+  margin: 0 0 0.5rem;
+}
+h2 {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  color: var(--pink-dark);
+  margin: 2rem 0 1rem;
+}
+h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.4rem;
+}
+p { margin: 0 0 1rem; }
+
+.date {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 0.62rem;
+  color: var(--ink-soft);
+  margin-bottom: 0.5rem;
+}
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.75rem 0 1rem;
+}
+.tag {
+  font-family: var(--font-display);
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  color: var(--teal-deep);
+  border: 1px solid var(--teal);
+  border-radius: 999px;
+  padding: 0.18rem 0.55rem;
+}
+
+/* =========================================================
+   CARDS — used for post/project entries on listing pages,
+   with small pixel-bracket corners as the one decorative motif
+   ========================================================= */
+.card {
+  position: relative;
+  border: 1px solid var(--black);
+  padding: 1.1rem;
+  margin-bottom: 1.1rem;
+}
+.card::before,
+.card::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  pointer-events: none;
+}
+.card::before {
+  top: 4px; left: 4px;
+  border-top: 2px solid var(--teal);
+  border-left: 2px solid var(--teal);
+}
+.card::after {
+  bottom: 4px; right: 4px;
+  border-bottom: 2px solid var(--teal);
+  border-right: 2px solid var(--teal);
+}
+.card h3 a { color: var(--black); }
+.card h3 a:hover { color: var(--pink-dark); }
+.card p { color: var(--ink-soft); font-size: 0.92rem; margin: 0.4rem 0 0; }
+
+.thumb {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 2px solid var(--black);
+  margin: 1.2rem 0;
+  overflow: hidden;
+}
+.thumb img { width: 100%; height: 100%; object-fit: cover; }
+
+/* photo grid */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+.photo-card { text-align: center; }
+.photo-frame {
+  aspect-ratio: 1 / 1;
+  border: 2px solid var(--black);
+  background: repeating-conic-gradient(var(--teal) 0% 25%, var(--pink) 0% 50%);
+  background-size: 14px 14px;
+  margin-bottom: 0.4rem;
+  overflow: hidden;
+}
+.photo-frame img { width: 100%; height: 100%; object-fit: cover; }
+.photo-caption {
+  font-family: var(--font-display);
+  font-size: 0.5rem;
+  color: var(--teal-deep);
+}
+
+/* video embed */
+.video-embed {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  margin: 1.5rem 0;
+  border: 2px solid var(--black);
+  overflow: hidden;
+}
+.video-embed iframe {
+  position: absolute; top: 0; left: 0;
+  width: 100%; height: 100%; border: 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed var(--black);
+  margin: 2.5rem 0;
+}
+
+/* =========================================================
+   DARK MODE TOGGLE — present on every page, doesn't count as
+   cross-page navigation since it doesn't link anywhere
+   ========================================================= */
+.mode-toggle-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 2.5rem 0 0;
+}
+.mode-toggle {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  overflow: hidden;
+}
+.mode-toggle-label {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-family: var(--font-display);
+  font-size: 0.6rem;
+  color: var(--black);
+  cursor: pointer;
+}
+.mode-track {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  flex: none;
+  background: var(--surface);
+  border: 2px solid var(--black);
+  border-radius: 999px;
+}
+.mode-thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--black);
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+.mode-toggle-wrap:has(.mode-toggle:checked) .mode-thumb {
+  transform: translateX(18px);
+  background: var(--teal);
+}
+.mode-toggle:focus-visible ~ .mode-track {
+  outline: 2px dashed var(--black);
+  outline-offset: 2px;
+}
+
+/* =========================================================
+   BACKGROUND SCATTER — dynamically populated by script.js
+   with randomly placed, randomly rotated images. Sits behind
+   all page content (the white .wrap card covers most of it).
+   ========================================================= */
+.bg-scatter-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+.bg-scatter-slot {
+  position: absolute;
+  transform: rotate(var(--rot, 0deg));
+  transition: transform 0.15s ease;
+}
+.bg-scatter-slot img {
+  width: 100%;
+  height: auto;
+  display: block;
+  pointer-events: none; /* clicks are handled by the <a> wrapper, not the image */
+  -webkit-user-drag: none;
+}
+/* only linked entries (rendered as <a>) become clickable/hoverable —
+   the rest stay purely decorative, same as before */
+span.bg-scatter-slot { pointer-events: none; }
+a.bg-scatter-slot {
+  pointer-events: auto;
+  cursor: pointer;
+}
+a.bg-scatter-slot:hover,
+a.bg-scatter-slot:focus-visible {
+  transform: rotate(var(--rot, 0deg)) scale(1.12);
+}
+a.bg-scatter-slot:focus-visible {
+  outline: 2px dashed var(--black);
+  outline-offset: 3px;
+}
+
+/* =========================================================
+   TRAVEL MAP — a simple original pixel-style world silhouette
+   with pin markers for places visited. All placeholder data —
+   see travel.html for how to add real pins.
+   ========================================================= */
+.travel-map-wrap {
+  position: relative;
+  border: 2px solid var(--black);
+  background: var(--surface);
+  margin: 1rem 0 1.5rem;
+}
+.travel-map-wrap svg { display: block; width: 100%; height: auto; }
+
+.map-pin {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: default;
+}
+.map-pin .pin-flag {
+  width: 13px;
+  height: 10px;
+  background: var(--pink);
+  clip-path: polygon(0 0, 100% 25%, 0 50%);
+  margin-bottom: -1px;
+}
+.map-pin .pin-stem {
+  width: 2px;
+  height: 12px;
+  background: var(--black);
+}
+.map-pin .pin-label {
+  position: absolute;
+  top: -1.6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-family: var(--font-display);
+  font-size: 0.5rem;
+  background: var(--surface);
+  border: 1px solid var(--black);
+  padding: 0.15rem 0.4rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.1s ease;
+}
+.map-pin:hover .pin-label,
+.map-pin:focus-visible .pin-label {
+  opacity: 1;
+}
+
+.travel-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.travel-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--black);
+  font-size: 0.92rem;
+}
+.travel-list li:last-child { border-bottom: none; }
+.travel-list .pin-flag-inline {
+  flex: none;
+  width: 13px;
+  height: 10px;
+  background: var(--pink);
+  clip-path: polygon(0 0, 100% 25%, 0 50%);
+}
+.travel-list .place-name { flex: 1; }
+.travel-list .place-note { color: var(--ink-soft); font-size: 0.85rem; }
+
+footer {
+  margin-top: 2rem;
+  font-family: var(--font-display);
+  font-size: 0.55rem;
+  color: var(--ink-soft);
+}
